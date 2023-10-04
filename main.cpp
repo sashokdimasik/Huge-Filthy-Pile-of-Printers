@@ -4,7 +4,7 @@
  * Variant:      14                           *
  * Date:         27.09.2023                   *
  * Project name: Huge Filthy Pile of Printers *
- * OnlineGDB: https://onlinegdb.com/cLdMy3kBz *
+ * OnlineGDB: https://onlinegdb.com/_lMOl9laH *
  **********************************************/
 
 #include <iostream>
@@ -40,7 +40,7 @@ int main() {
     if (type == typeToShow) {
       if (printersCount == 0) costMin = cost;
       
-      printersCount++;
+      ++printersCount;
       costAverage += cost;
       
       cout << brand << ' ' << number << ", cost: " << cost << '\n';
