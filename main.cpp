@@ -4,7 +4,7 @@
  * Variant:      14                           *
  * Date:         27.09.2023                   *
  * Project name: Huge Filthy Pile of Printers *
- * OnlineGDB: https://onlinegdb.com/1Q9OMD_-7 *
+ * OnlineGDB: https://onlinegdb.com/cLdMy3kBz *
  **********************************************/
 
 #include <iostream>
@@ -24,7 +24,7 @@ int main() {
   ifstream fin(fname);
   
   if (!fin) {
-    cout << "\nACHTUNG! Couldn't read the file 'input.txt'!";
+    cout << "\nACHTUNG! Couldn't read the file '" + fname + "'!";
     return 1;
   }
   
